@@ -54,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 64px;
+    padding: 50px 80px;
     background: linear-gradient(
         90deg,
         #0185C0 0%,
@@ -98,6 +98,123 @@
 /* --------------- Main ---------------- */
 
 
+
+.main-texto-apresentacao {
+    width: 100%;
+    height: 810px;
+    padding: 80px 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+    background-image: url("../assets/images/Home_Biolab.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+}
+
+.texto-apresentacao > h1 {
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.texto-apresentacao > h1 > span {
+    color: var(--fiver);
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.texto-p > p {
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.content-left {
+    width: 600px; 
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--white);
+}
+
+.cta-form {
+    display: flex;
+    gap: 10px;
+}
+
+.cta-form input {
+    background: transparent;
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: var(--white);
+    flex: 1;
+}
+
+.cta-form button {
+    color: var(--white);
+    background-color: var(--fiver);
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.terms {
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: var(--white);
+}
+
+/* ---------------------- main noticias ---------------------- */
+
+.main-sobre-nos {
+    width: 100%;
+    height: 1144px;
+    padding: 112px 80px;
+    display: flex;
+    background: var(--n-theer);
+    justify-content: space-between;
+}
+
+.content-sobre {
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.texto-t h1{
+    color: var(--primary);
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 110%;
+    gap: 26px;
+}
+
+.assunto-1 p {
+    color: var(--black);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
 
 
 
