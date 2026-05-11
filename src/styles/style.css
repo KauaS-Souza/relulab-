@@ -189,14 +189,16 @@
     height: 1144px;
     padding: 112px 80px;
     display: flex;
-    background: var(--n-theer);
     justify-content: space-between;
+    background: var(--n-theer);
 }
 
 .content-sobre {
-    align-items: center;
+    display: flex;
+    align-items: start;
     justify-content: space-between;
     gap: 48px;
+    border: 1px solid,black;
 }
 
 .texto-t h1{
@@ -205,15 +207,22 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 110%;
-    gap: 26px;
+    border: 1px solid, tan;
 }
 
-.assunto-1 p {
-    color: var(--black);
+.texto-t p {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+    border: 1px solid, tan;
+
+}
+
+.conteudo-informativo1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid, firebrick;
 }
 
 
